@@ -6,5 +6,5 @@ main.remove();
 
 var newHeader = document.createElement('H1');
 document.body.appendChild(newHeader);
-newHeader.id = 'victory';
+newHeader.setAttribute ('id', 'victory');
 newHeader.innerHTML = "Andrew is the champion";
